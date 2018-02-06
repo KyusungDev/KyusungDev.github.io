@@ -1,4 +1,4 @@
-title: Hello, world! I'm David Freeman
+title: Welcome, Kyusung's blog
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,11 +12,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: David Freeman # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
-linkedin: # add your Linkedin handle
-email: # add your Email address
+twitter: '' # add your Twitter handle
+facebook: '' # add your Facebook handle
+github: https://github.com/KyusungDev artemsheludko # add your Github handle
+linkedin: ''# add your Linkedin handle
+email: simple3740@naver.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
