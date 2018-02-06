@@ -84,7 +84,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: 'Roboto', 'Nanum Gothic', KoPub Dotum, monospace, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1446,3 +1446,34 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+/* KoPub Dotum */
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.eot);
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.eot?#iefix) format('embedded-opentype'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.woff) format('woff'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Light.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'KoPub Dotum';
+ font-style: normal;
+ font-weight: 400;
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot);
+ src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.eot?#iefix) format('embedded-opentype'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.woff) format('woff'),
+ url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'KoPub Dotum';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.eot);
+  src: url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.eot?#iefix) format('embedded-opentype'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.woff) format('woff'),
+       url(//cdn.jsdelivr.net/font-kopub/1.0/KoPubDotum-Bold.ttf) format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto');
