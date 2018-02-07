@@ -11,14 +11,14 @@ tags: [javascript, jQuery]
 > jQuery JavaScript Library v1.12.3
 
 **jQuery.getJSON**
-```js
+{% highlight js %}
 getJSON: function( url, data, callback ) {
   return jQuery.get( url, data, callback, "json" );
 },
-```
+{% endhighlight %}
 
 **jQuery.get**
-```js
+{% highlight js %}
 jQuery.each( [ "get", "post" ], function( i, method ) {
   jQuery[ method ] = function( url, data, callback, type ) {
       // shift arguments if data argument was omitted
@@ -38,10 +38,10 @@ jQuery.each( [ "get", "post" ], function( i, method ) {
     }, jQuery.isPlainObject( url ) && url ) );
   };
 });
-```
+{% endhighlight %}
 
 **jQuery.ajax**
-```js
+{% highlight js %}
 ajax: function( url, options ) {
   
   // If url is an object, simulate pre-1.5 signature
@@ -59,10 +59,10 @@ ajax: function( url, options ) {
   
   ...
 }
-```
+{% endhighlight %}
 
 **jQuery.ajaxSetup**
-```js
+{% highlight js %}
 ajaxSetup: function( target, settings ) {
   return settings ?
     
@@ -72,10 +72,10 @@ ajaxSetup: function( target, settings ) {
     // Extending ajaxSettings
     ajaxExtend( jQuery.ajaxSettings, target );
 },
-```
+{% endhighlight %}
 
 **jQuery.ajaxSettings**
-```js
+{% highlight js %}
 // Create the request object
 // (This is still attached to ajaxSettings for backward compatibility)
 jQuery.ajaxSettings.xhr = window.ActiveXObject !== undefined ?
@@ -105,7 +105,7 @@ jQuery.ajaxSettings.xhr = window.ActiveXObject !== undefined ?
   } :
 	// For all other browsers, use the standard XMLHttpRequest object
   createStandardXHR;
-```
+{% endhighlight %}
 
 jQuery.getJSON function은 browser에 따라서 XMLHttpRequest object를 사용한다는것을 알 수 있다.
 
@@ -136,7 +136,7 @@ request는 클라이언트에 의해 전달되어 서버의 동작을 일으키�
 > https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
 
 ### TCP/IP Layer
-![TCP/IP Layer](assets/img/tcp_layer.png)
+![TCP/IP Layer]({{ site.baseurl }}/assets/img/tcp_layer.png)
 
 ### chromium XMLHttpRequest implement
 > https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/xml/XMLHttpRequest.h
@@ -163,3 +163,5 @@ SSR은 페이지 로딩시마다 서버로부터 리소스를 전달받아 해�
 - [SPA 단점에 대한 단상](http://m.mkexdev.net/374)
 - [웹의 Native 化, PWA(Progressive Web Apps)](http://m.mkexdev.net/356)
 - [서버 사이드 렌더링 그리고 클라이언트 사이드 렌더링](http://asfirstalways.tistory.com/244)
+  
+  
