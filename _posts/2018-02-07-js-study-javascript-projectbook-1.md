@@ -1,3 +1,9 @@
+---
+layout: post
+title: 자바스크립트프로젝트북 스터디 - 5
+tags: [javascript, jQuery]
+---
+
 ### jQuery.getJSON 분석
 > jQuery JavaScript Library v1.12.3
 
