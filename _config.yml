@@ -20,7 +20,7 @@ theme_settings:
 
   # Icons
   rss: true
-  email_address: "simple3740@naver.com"# Full email address, e.g. "sam@example.com"
+  email_address: "simple3740@naver.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
