@@ -4,9 +4,11 @@ title: 자바스크립트프로젝트북 스터디 - 5
 tags: [javascript, jQuery]
 ---
 
+2018.02.04  
+자바스크립트 프로젝트북 스터디(#5) 내용을 정리한 글입니다.
+
 ### jQuery.getJSON 분석
 > jQuery JavaScript Library v1.12.3
-
 
 **jQuery.getJSON**
 ```js
@@ -134,7 +136,7 @@ request는 클라이언트에 의해 전달되어 서버의 동작을 일으키�
 > https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
 
 ### TCP/IP Layer
-![TCP/IP Layer](tcp_layer.png)
+![TCP/IP Layer](assets/img/tcp_layer.png)
 
 ### chromium XMLHttpRequest implement
 > https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/xml/XMLHttpRequest.h
@@ -156,10 +158,8 @@ SSR은 페이지 로딩시마다 서버로부터 리소스를 전달받아 해�
 ---
 - [RESTFul이란 무엇인가?](http://blog.remotty.com/blog/2014/01/28/lets-study-rest/)
 - [REST API](http://poiemaweb.com/js-rest-api)
-
 - [SPA & Routing](http://poiemaweb.com/js-spa)
 - [CSR vs SSR](https://jongmin92.github.io/2017/06/06/JavaScript/client-side-rendering-vs-server-side-rendering/)
-
 - [SPA 단점에 대한 단상](http://m.mkexdev.net/374)
 - [웹의 Native 化, PWA(Progressive Web Apps)](http://m.mkexdev.net/356)
 - [서버 사이드 렌더링 그리고 클라이언트 사이드 렌더링](http://asfirstalways.tistory.com/244)
