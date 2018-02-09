@@ -6,12 +6,12 @@ tags: [javascript, jQuery]
 
 2018.02.04  
 자바스크립트 프로젝트북 스터디(#5) 내용을 정리한 글입니다.
-  
+
   
   
   
 ### jQuery.getJSON 분석
-> jQuery JavaScript Library v1.12.3
+> [jQuery JavaScript Library v1.12.3](https://code.jquery.com/jquery-1.12.3.js)
 
 **jQuery.getJSON**
 ```js
@@ -115,17 +115,17 @@ jQuery.getJSON function은 browser에 따라서 XMLHttpRequest object를 사용�
 ### JSON(JavaScript Object Notation)
 비동기 브라우저/서버 통신 (AJAX)을 위해, 넓게는 XML(AJAX가 사용)을 대체하는 주요 데이터 포맷.  
 본래는 자바스크립트 언어로부터 파생되어 자바스크립트의 구문 형식을 따르지만 언어 독립형 데이터 포맷.
-> https://ko.wikipedia.org/wiki/JSON
+> [Wiki JSON](https://ko.wikipedia.org/wiki/JSON)
 
 ### AJAX(Asynchronous JavaScript and XML)
 비동기적인 웹 애플리케이션의 제작을 위해 아래와 같은 조합을 이용하는 웹 개발 기법.  
 Ajax 애플리케이션은 필요한 데이터만을 웹서버에 요청해서 받은 후 클라이언트에서 데이터에 대한 처리를 할 수 있다.  
-> https://ko.wikipedia.org/wiki/Ajax
+> [Wiki AJAX](https://ko.wikipedia.org/wiki/Ajax)
 
 ### XMLHttpRequest Object, over HTTP (file and FTP)
 XMLHttpRequest는 Microsoft가 만든 JavaScript 개체(object).  
 XMLHttpRequest는 HTTP를 통해서 쉽게 데이터를 받을 수 있게 해준다.  
-> https://developer.mozilla.org/ko/docs/XMLHttpRequest
+> [MDN XMLHttpRequest](https://developer.mozilla.org/ko/docs/XMLHttpRequest)
 
 ### HTTP(HyperText Transfer Protocol)
 WWW 상에서 정보를 주고받을 수 있는 프로토콜.  
@@ -139,24 +139,23 @@ request는 클라이언트에 의해 전달되어 서버의 동작을 일으키�
 > https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
 
 ### TCP/IP Layer
-![TCP/IP Layer](assets/img/tcp_layer.png)
+![TCP/IP Layer](/assets/img/tcp_layer.png)
 
-### chromium XMLHttpRequest implement
-> https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/xml/XMLHttpRequest.h
+### Chromium XMLHttpRequest implement
+> [Chromium XMLHttpRequest](https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/xml/XMLHttpRequest.h)
 
-> https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/platform/network/SocketStreamHandleClient.h
+> [Chromium SocketStreamHandleClient](https://chromium.googlesource.com/chromium/blink.git/+/99b8c9800ac123eddc3e199088d22569c5294b22/Source/core/platform/network/SocketStreamHandleClient.h)
     
 ### SPA(Single Page Application) & SSR (Server Side Rendering)
 SPA는 기존의 전통적인 새로고침 방식의 웹과는 달리 필요한 정적파일을 한번에(나눠서도 가능하다) 모두 다운로드 받고, 이후 사용자와의 상호작용 가운데 필요한 데이터만 서버로부터 (비동기로) 동적으로 받게하여 트래픽의 총량을 줄이고, 네이티브 앱과 유사한 사용자 경험을 제공할 수 있는 어플리케이션 형태.
 
 SSR은 페이지 로딩시마다 서버로부터 리소스를 전달받아 해석하고 화면에 렌더링하는 방식.
-
-> http://poiemaweb.com/js-spa
-> http://devstory.ibksplatform.com/2017/08/spasigle-page-applications.html
+> [SPA 실습](http://poiemaweb.com/js-spa)
+> [SPA(Sigle Page Applications) 란 무엇인가](http://devstory.ibksplatform.com/2017/08/spasigle-page-applications.html)
 
 ### SEO (search engine optimization)
 검색 엔진 최적화는 웹 페이지 검색엔진이 자료를 수집하고 순위를 매기는 방식에 맞게 웹 페이지를 구성해서 검색 결과의 상위에 나올 수 있도록 하는 작업을 말한다.
-> How Search Works(YouTube) https://youtu.be/BNHR6IQJGZs
+> [How Search Works(YouTube)](https://youtu.be/BNHR6IQJGZs)
   
 ---
 - [RESTFul이란 무엇인가?](http://blog.remotty.com/blog/2014/01/28/lets-study-rest/)
