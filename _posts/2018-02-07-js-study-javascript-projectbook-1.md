@@ -130,13 +130,12 @@ XMLHttpRequest는 HTTP를 통해서 쉽게 데이터를 받을 수 있게 해준
 ### HTTP(HyperText Transfer Protocol)
 WWW 상에서 정보를 주고받을 수 있는 프로토콜.  
 주로 HTML 문서를 주고받는 데에 쓰인다. TCP와 UDP를 사용하며, 80번 포트를 사용한다.  
-> https://ko.wikipedia.org/wiki/HTTP
+> [Wiki HTTP](https://ko.wikipedia.org/wiki/HTTP)
 
 ### HTTP Message
 HTTP 메시지는 서버와 클라이언트 간에 데이터가 교환되는 방식.  
-메시지에는 두 가지 타입이 존재함.  
-request는 클라이언트에 의해 전달되어 서버의 동작을 일으키는 것이고, response는 그에 대한 서버의 회신  
-> https://developer.mozilla.org/ko/docs/Web/HTTP/Messages
+메시지에는 두 가지 타입이 존재함. request는 클라이언트에 의해 전달되어 서버의 동작을 일으키는 것이고, response는 그에 대한 서버의 회신  
+> [MDN HTTP Messages](https://developer.mozilla.org/ko/docs/Web/HTTP/Messages)
 
 ### TCP/IP Layer
 ![TCP/IP Layer](/assets/img/tcp_layer.png)
