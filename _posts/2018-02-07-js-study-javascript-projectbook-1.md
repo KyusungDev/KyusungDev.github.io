@@ -24,14 +24,14 @@ getJSON: function( url, data, callback ) {
 ```js
 jQuery.each( [ "get", "post" ], function( i, method ) {
   jQuery[ method ] = function( url, data, callback, type ) {
-      // shift arguments if data argument was omitted
+     // shift arguments if data argument was omitted
       if ( jQuery.isFunction( data ) ) {
       type = type || callback;
       callback = data;
       data = undefined;
     }
   
-  		// The url can be an options object (which then must have .url)
+    // The url can be an options object (which then must have .url)
     return jQuery.ajax( jQuery.extend( {
       url: url,
       type: method,
@@ -68,7 +68,6 @@ ajax: function( url, options ) {
 ```js
 ajaxSetup: function( target, settings ) {
   return settings ?
-    
     // Building a settings object
     ajaxExtend( ajaxExtend( target, jQuery.ajaxSettings ), settings ) :
     
