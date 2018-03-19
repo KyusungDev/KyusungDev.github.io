@@ -61,7 +61,7 @@ json 형식으로 데이터 작성 후 Send
 ***
 
 ### 참조
-[Firebase realtime DB REST API 사용 방법](https://firebase.google.com/docs/reference/rest/database/)
+[Firebase realtime DB REST API 사용 방법](https://firebase.google.com/docs/reference/rest/database/)  
 [AJAX 사용하기](https://developer.mozilla.org/ko/docs/Web/Guide/AJAX/Getting_Started)
 
   
