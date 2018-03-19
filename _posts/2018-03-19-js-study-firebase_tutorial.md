@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "자바스크립트 프로젝트북 #5"
-tags: [javascript, jQuery]
+title: "Firebase 사용방법"
+tags: [firebase]
 ---
 
 2018.03.19
@@ -31,12 +31,10 @@ firebase Realtime Database 사용방법을 정리한 글입니다.
 ```
 
 lists 항목을 클릭하면 화면 상단에 아래와 같은 URL이 표시된다.
-> https://js-study.firebaseio.com/lists
+`https://js-study.firebaseio.com/lists`
 
 URL을 복사하고 해당 URL 끝에 **.json**을 붙이면 해당 데이터를 조회하거나 수정할 수 있다.
->> https://js-study.firebaseio.com/lists.json
-
-위 URL을 REST API라고 생각하면 된다.  
+`https://js-study.firebaseio.com/lists.json`
 
 > REST API란?  
 > http://meetup.toast.com/posts/92  
