@@ -56,11 +56,11 @@ json 형식으로 데이터 작성 후 Send
 [JSON 사용하기](https://www.w3schools.com/js/js_json_intro.asp)
   
   
-- 코드로 테스트하기
+- 코드로 테스트하기  
 XMLHttpReqeust를 이용해 GET/PUT하는 예제 참고.  
 추가로 구현하려면  GET/POST/PUT/DELETE 예제가 작성된 코드를 참고.  
 
-[코드로 테스트하기](https://jsbin.com/sugipawuyu/edit?html,js,console,output)  
+[코드로 테스트하기](https://jsbin.com/sugipawuyu/edit?html,js,console,output)   
 [GET/POST/PUT/DELETE 코드 구조 참조](https://gist.github.com/EtienneR/2f3ab345df502bd3d13e)  
 
 ***
