@@ -7,10 +7,10 @@ tags: [firebase]
 2018.03.19
 firebase Realtime Database 사용방법을 정리한 글입니다.
 
-1. firebase 가입
+- firebase 가입
 [firebase](https://firebase.google.com)
 
-2. firebase realtime DB 생성  
+- firebase realtime DB 생성  
 자신의 콘솔로 이동하여 새 프로젝트를 추가하고, 프로젝트에 들어가서 Database 메뉴를 선택한다.  
 
 **규칙 메뉴에서 모든 사용자가 접근 가능하도록 변경한다.**
@@ -23,7 +23,7 @@ firebase Realtime Database 사용방법을 정리한 글입니다.
 }
 ```
 
-3. 데이터 메뉴에 하위 항목 추가
+- 데이터 메뉴에 하위 항목 추가
   - 추가버튼을 선택하여 하위 항목을 한다 
     ```js
         lists: "" // 이름 lists, 값 ""
@@ -39,7 +39,7 @@ firebase Realtime Database 사용방법을 정리한 글입니다.
     https://js-study.firebaseio.com/lists.json
     ```
 
-4. 해당 DB에 대해서 테스트
+- 해당 DB에 대해서 테스트
   - Postman으로 테스트하기
     크롬 앱에서 Postman 설치 [Postman](https://www.getpostman.com/apps)  
     + GET  

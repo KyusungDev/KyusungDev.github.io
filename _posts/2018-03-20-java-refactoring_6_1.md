@@ -1,8 +1,11 @@
 ---
 layout: post
 title: "Refactoring - 메소드 정리 기법 #1"
-tags: [refactoring, extract method]
+tags: [refactoring]
 ---
+
+2018.03.20
+Refactoring - 메소드 정리 기법 #1
 
 ### 리팩토링 시점
 프로그램에 기능을 추가해야 하는데 코드 구조가 조잡해서 그 기능을 추가하기 힘들다면, 우선 리팩토링을 실시해서 기능을 추가하기 쉽게 만든 후 그 기능을 추가하자.
