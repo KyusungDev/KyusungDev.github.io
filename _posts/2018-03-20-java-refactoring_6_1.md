@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Refactoring: 메소드 정리 기법 (메서드 추출, 메서드 내용 직접 삽입)"
+title: "[리팩토링] 메서드 정리(메서드 추출, 메서드 내용 직접 삽입)"
 tags: [refactoring]
 ---
 
