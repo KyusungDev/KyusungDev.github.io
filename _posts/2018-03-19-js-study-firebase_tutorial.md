@@ -46,8 +46,8 @@ firebase Realtime Database 사용방법을 정리한 글입니다.
       GET 선택 후 URL 입력후 Send
 
     + PUT  
-      PUT 선택 후 URL 입력 후 Headers 메뉴에서 Content-Type을 `application/json` 으로 변경  
-      Body 메뉴에서 raw 선택 후 type을 `JSON(application/json`)으로 변경  
+      PUT 선택 후 URL 입력 후 Headers 메뉴에서 Content-Type을 **application/json** 으로 변경  
+      Body 메뉴에서 raw 선택 후 type을 **JSON(application/json)**으로 변경  
       json 형식으로 데이터 작성 후 Send  
       
   - 코드로 테스트하기  
