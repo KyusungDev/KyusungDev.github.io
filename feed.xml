@@ -1,22 +1,35 @@
 ---
 layout: null
 ---
+
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>{{ site.theme_settings.title | xml_escape }}</title>
-    <atom:link href="{{ "/feed.xml" | relative_url }}" rel="self" type="application/rss+xml"/>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <description>{{ site.theme_settings.description | xml_escape }}</description>
-    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
-    {% for post in site.posts limit:15 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | relative_url }}</link>
-        <guid isPermaLink="true">{{ post.url | relative_url }}</guid>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      </item>
-    {% endfor %}
-  </channel>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+	<channel>
+		<title><![CDATA[{{ site.title }}]]></title>
+		<description><![CDATA[{{ site.description }}]]></description>
+		<link href="{{ site.url }}/" />
+		<atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    {% assign docs = site.docs | sort: 'date' | reverse %}
+		{% for doc in docs limit:15 %}
+		<item>
+      <title><![CDATA[{{ doc.title | cdata_escape }}]]></title>
+      <link>{{ site.url }}{{ doc.url }}</link>
+      <pubDate>{{ doc.date | date: "%a, %d %b %Y %T %z" }}</pubDate>
+      <category><![CDATA[{{ doc.category | cdata_escape }}]]></category>
+      <description>
+        <![CDATA[{{ doc.content | strip_html | truncatewords: 50 | expand_urls: site.url | cdata_escape }}]]>
+      </description>
+      <content:encoded>
+        <![CDATA[{{ doc.content | strip_html | expand_urls: site.url | cdata_escape }}]]>
+      </content:encoded>
+		</item>
+		{% endfor %}
+	</channel>
 </rss>
