@@ -2,7 +2,7 @@
 title: 정리 노트
 ---
 
-* 공부한 내용을 정리하는 블로그br> <br>
+* 공부내용 저장소<br>
 
 * Mail - happy.kyusung@gmail.com
 * Blog - [http://ymcoder.tistory.com/category](http://ymcoder.tistory.com/category)
