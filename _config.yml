@@ -2,8 +2,8 @@
 # Site
 # -----
 
-title: Ssup2 Blog
-url: https://ssup2.github.io
+title: Kyusung Blog
+url: https://KyusungDev.github.io
 baseurl:
 google_analytics_key: UA-77446431-3
 show_full_navigation: true
@@ -54,12 +54,12 @@ kramdown:
 # seo-tag
 # -----
 
-title: Ssup2 Blog
-description: Ssup2의 개인 블로그입니다.
-url: https://ssup2.github.io
+title: Kyusung Blog
+description: 개인 블로그입니다.
+url: https://kyusungDev.github.io
 logo: /siteicon.png
-author: Ssup2
+author: Kyusung
 social:
-  name: Ssup2
+  name: Kyusung
   links:
-    - https://ssup2.github.io
+    - https://KyusungDev.github.io

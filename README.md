@@ -1,1 +1,1 @@
-Ssup2 Blog
+Kyusung Blog
